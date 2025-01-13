@@ -6,11 +6,10 @@ import { Disclosure } from "@headlessui/react";
 
 export const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "Home",
+    "Careers",
+    "About Us",
+    "Contact",
   ];
 
   return (
@@ -37,7 +36,7 @@ export const Navbar = () => {
             <ThemeChanger />
             <div className="hidden mr-3 lg:flex nav__item">
               <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-                Get Started
+                Join Us!
               </Link>
             </div>
         </div>
