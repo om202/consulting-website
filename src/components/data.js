@@ -7,50 +7,50 @@ import {
   SunIcon,
 } from "@heroicons/react/24/solid";
 
-import benefitOneImg from "../../public/img/benefit-one.png";
+import benefitOneImg from "../../public/img/about_us.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "About Us?",
+  desc: "Nextly is a fast-growing global community of highly skilled information technology professionals who provide vital and varied IT consulting, development, system enhancement and support services. We integrate our clients' key considerations and objectives, using a proprietary approach we call S3RSM.",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Our Mission",
+      desc: "Our mission is to add value to client operations with innovative, simplified IT products and servicesthat improve employee productivity.",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Our Vision",
+      desc: "Our vision is to empower clients with intellectual property through a transferable process that is digitized and mobilized.",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Nextly Values",
+      desc: "Our core values includeexceeding client expectations with sustained quality, integrity and reliability, leading to relationships built on trust that has been earned.",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "Services",
+  desc: "Our services include simplified innovative technology solutions, staffing and training solutions to complement in-house skills and capabilities, and IT services designed with real-world insight into what works best in IT.",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "IT Services",
+      desc: "Clients require creating and maintaining customized proprietary applications to streamline operations. At NICInfotek, our teams use our 4D Software Development Methodology.",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "Staffing Solutions",
+      desc: "We offer vetted, motivated, competitive people on a contract basis, contract-to-hire, or direct hire. Our preparation cuts your overhead and maximizes your ROI.",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+      title: "Engineering Services",
+      desc: "NIC provides engineering & technical solutions focused on understanding your specific requirements. We then develop strategies to satisfy your needs and plans.",
       icon: <SunIcon />,
     },
   ],

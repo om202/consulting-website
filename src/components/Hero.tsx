@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
-import heroImg from "../../public/img/hero.png";
+import heroImg from "../../public/img/consulting2.png";
 
 export const Hero = () => {
   return (
@@ -40,7 +40,9 @@ export const Hero = () => {
           </div>
         </div>
       </Container>
-      <Container>
+
+
+      {/* <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
             Trusted by <span className="text-indigo-600">2000+</span>{" "}
@@ -65,7 +67,7 @@ export const Hero = () => {
             </div>
           </div>
         </div>
-      </Container>
+      </Container> */}
     </>
   );
 }
